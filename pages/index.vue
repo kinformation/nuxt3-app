@@ -1,7 +1,7 @@
 <template>
   <div>
     count: {{ count }}
-    <span @click="addCount">[+]</span>
+    <v-btn color="primary" @click="addCount">+</v-btn>
   </div>
 </template>
 
